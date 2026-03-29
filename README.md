@@ -109,6 +109,17 @@ python src/main.py
 ```
 
 ---
+🚀 Setup & Run Instructions
+
+git clone https://github.com/ArhamBabel/multi-agent-rag-ecommerce-support.git
+cd multi-agent-rag-ecommerce-support
+pip install -r requirements.txt
+
+# Add your API key in a .env file
+OPENAI_API_KEY=your_api_key
+
+# Run the project
+python main.py
 
 ## 📥 Input Format
 
