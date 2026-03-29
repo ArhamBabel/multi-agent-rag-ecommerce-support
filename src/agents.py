@@ -93,3 +93,27 @@ def safety_agent(answer, citations):
         return "⚠️ Output format incorrect."
 
     return "✅ Answer is valid and grounded."
+
+def format_output(issue_type, answer, citations):
+
+    return f"""
+Classification: {issue_type} (confidence: 0.9)
+
+Clarifying Questions:
+- None
+
+Decision: {"deny" if "Not Eligible" in answer else "approve"}
+
+Rationale:
+{answer.split("Rationale:")[-1].strip()}
+
+Citations:
+{chr(10).join([f"- {c}" for c in citations])}
+
+Customer Response:
+Dear Customer,
+Based on our policy, {answer.split("Rationale:")[-1].strip()}
+
+Next Steps:
+- Contact support if further clarification is needed.
+"""

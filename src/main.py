@@ -1,5 +1,6 @@
 from retriever import retrieve_docs
 from agents import triage_agent, generate_answer, safety_agent
+from agents import format_output
 if __name__ == "__main__":
     query = "Can I return a damaged item after 5 days?"
 
@@ -10,13 +11,10 @@ if __name__ == "__main__":
 
     answer, citations = generate_answer(query, docs)
 
-    print("ANSWER:\n")
-    print(answer)
+    final_output = format_output(issue_type, answer, citations)
+    print(final_output)
 
-    print("\nCITATIONS:\n")
-    for i, c in enumerate(citations):
-        print(f"{i+1}. {c.strip()}")
+    safety = safety_agent(answer,citations)
 
-    safety = safety_agent(answer, citations)
     print("\nSAFETY CHECK:\n")
-    print(safety)
+    print(safety) 
