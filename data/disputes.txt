@@ -1,0 +1,15 @@
+If a customer receives a damaged item, they must report it within 48 hours of delivery.
+
+Missing items must be reported within 24 hours.
+
+Customers may be required to provide photo evidence.
+
+If the issue is verified, a refund or replacement will be issued.
+
+False claims may result in account restrictions.
+
+Payment failures where the amount is deducted must be reported within 24 hours with transaction details.
+
+The payment will be verified, and a refund will be initiated if the issue is confirmed.
+
+Fraudulent or duplicate claims may result in account restrictions.

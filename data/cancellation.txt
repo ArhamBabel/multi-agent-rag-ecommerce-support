@@ -1,0 +1,29 @@
+Orders can be cancelled before shipment confirmation unless marked as non-cancellable.
+
+Once the order is shipped, cancellation requests may not be accepted.
+
+Refunds for cancelled orders will be processed to the original payment method within standard timelines.
+
+Cash on Delivery (COD) orders can be cancelled anytime before dispatch without charges.
+
+Cancellation requests due to “change of mind” may not be allowed for certain products.
+
+Orders placed during sales or promotions may have restricted cancellation options.
+
+If a seller cancels the order, a full refund will be issued to the customer.
+
+Repeated order cancellations by customers may lead to account restrictions.
+
+Cancellation is not allowed for personalized, perishable, or made-to-order items.
+
+If payment is successful but cancellation fails, the order will be processed or refunded as per policy.
+
+Partial cancellation may not be allowed for bundled or combo products.
+
+Refund timelines may vary depending on the payment method and banking partner.
+
+Cancellation requests after dispatch refusal may incur shipping or handling charges.
+
+Orders in processing may be cancelled, but once packed or handed to courier, cancellation may not be possible.
+
+If a cancellation request is placed but the order is already shipped, the customer may need to initiate a return after delivery.
