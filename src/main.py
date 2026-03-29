@@ -18,3 +18,10 @@ if __name__ == "__main__":
 
     print("\nSAFETY CHECK:\n")
     print(safety) 
+
+order_context = {
+    "order_status": "delivered",
+    "item_category": "general",
+    "delivery_date": "5 days ago",
+    "shipping_region": "India"
+}
